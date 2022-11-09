@@ -4,3 +4,35 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+
+  /* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container-smaller {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  header {
+    background-color: lightgrey;
+    height: 60px;
+    width: 100%;
+  }
+
+  footer {
+    background-color: black;
+    min-height: 100px;
+  }
+
+  .jumbotron {
+    background-color: dodgerblue;
+    text-align: center;
+  }
+
+  /* Footer */
+
+  
