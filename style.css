@@ -7,6 +7,11 @@
 
 
   /* Utils */
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -25,6 +30,7 @@
     background-color: white;
     height: 50px;
     width: 100%;
+    font-size: 12px;
   }
 
   .navbar {
@@ -45,6 +51,11 @@
 li {
     padding: 0 15px;
 }
+
+p {
+    font-size: 10px;
+}
+
   /* Header */
 
   .logo-hdr {
@@ -76,9 +87,49 @@ li {
   /* Main */
 
   .jumbotron {
-    background-color: dodgerblue;
+    background-color: rgb(180, 208, 231);
     text-align: center;
+    /* width: 700px; */
+
+    justify-content: center;
+    
   }
+
+  h1 {
+    font-size: 40px;
+    max-width: 700px;
+    padding-top: 30px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 48px;
+  }
+
+  .column{
+    
+    display: flex;
+    justify-content: center;
+}
+.column .col-large{
+    min-height: 250px;
+    background-color: rgb(180, 208, 231);
+    max-width: 400px;
+    flex-basis: 60%;
+}
+.column .col-small{
+    min-height: 250px;
+    background-color: rgb(180, 208, 231);
+    max-width: 200px;
+    flex-basis: 40%;
+    padding-top: 0px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.img-jumbo img {
+    height: 270px;
+}
+
+
 
   /* Footer */
 
