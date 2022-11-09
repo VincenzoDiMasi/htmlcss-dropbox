@@ -17,16 +17,63 @@
     margin: 0 auto;
   }
 
+.flex {
+    display: flex;
+}
+
   header {
-    background-color: lightgrey;
-    height: 60px;
+    background-color: white;
+    height: 50px;
     width: 100%;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    
   }
 
   footer {
     background-color: black;
     min-height: 100px;
   }
+
+  ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+    padding: 0 15px;
+}
+  /* Header */
+
+  .logo-hdr {
+    vertical-align: middle;
+    height: 20px;
+    padding-left: 15px;
+  }
+
+  .left-hdr {
+    vertical-align: middle;
+    flex-basis: 50%;
+    padding-top: 15px;
+    }
+
+    .right-hdr {
+        vertical-align: middle;
+        flex-basis: 50%;
+        padding-top: 15px;
+        justify-content: end;
+        }
+
+    .start-bttn {
+        color: white;
+        background-color: dodgerblue;
+        padding: 5px 7px;
+    }
+
+
+  /* Main */
 
   .jumbotron {
     background-color: dodgerblue;
@@ -35,4 +82,3 @@
 
   /* Footer */
 
-  
