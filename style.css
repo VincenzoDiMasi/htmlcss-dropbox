@@ -12,6 +12,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    background-color: rgb(180, 208, 231);
+
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -52,9 +57,20 @@ li {
     padding: 0 15px;
 }
 
+h1 {
+    font-size: 47px;
+    max-width: 700px;
+    padding-top: 30px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 48px;
+  }
+
 p {
-    font-size: 10px;
+    font-size: 12px;
 }
+
+
 
   /* Header */
 
@@ -77,10 +93,11 @@ p {
         justify-content: end;
         }
 
-    .start-bttn {
+    .blue-bttn {
         color: white;
         background-color: dodgerblue;
         padding: 5px 7px;
+        text-decoration: none;
     }
 
 
@@ -95,14 +112,7 @@ p {
     
   }
 
-  h1 {
-    font-size: 40px;
-    max-width: 700px;
-    padding-top: 30px;
-    display: inline-block;
-    text-align: left;
-    padding-left: 48px;
-  }
+  
 
   .column{
     
@@ -123,10 +133,32 @@ p {
     padding-top: 0px;
     margin-top: 40px;
     text-align: left;
+    font-size: 12px;
+
+}
+
+.start-adv {
+    padding: 15px 0;
 }
 
 .img-jumbo img {
-    height: 270px;
+    height: 370px;
+    /* z-index: 1; */
+    padding-top: 43px;
+}
+
+.col-small a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+.col-small i {
+    display: block;
+    font-size: 35px;
+    padding-top: 45px;
+    color: black;
 }
 
 
