@@ -374,8 +374,26 @@ img {
  /* Sezione Logo */
 
  .main-row {
-    flex-basis: calc(100% / 3);
+    
     border: 1px dashed red;
+    min-height: 600px;
  }
+
+ .main-column {
+    border: 1px dashed red;
+    flex-basis: calc(100% / 3);
+    min-height: calc(100% / 2);
+ }
+
+ .column2 {
+    border: 1px dashed red;
+    min-height: 300px;
+    
+ }
+
+.card {
+    flex-basis: calc(100% / 2);
+    border: 1px dashed red;
+}
 
   /* Footer */
