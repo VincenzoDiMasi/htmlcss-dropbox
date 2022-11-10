@@ -138,6 +138,40 @@ img {
     color: black;
   }
 
+  /* business */
+
+  #business {
+    background-color: #fff;
+    min-height: 700px;
+  }
+
+  #business h2 {
+    margin-top: 140px;
+    font-size: 35px;
+    text-align: left;
+    font-weight: 525;
+    margin-bottom: 45px;
+  }
+
+  .row .type-plan {
+    flex-basis: calc(100% / 3);
+    border: 2px dashed black;
+    min-height: 100px;
+    margin-top: 50px;
+  }
+  .row .plan {
+    flex-basis: calc(100% / 3);
+    border: 2px dashed black;
+    min-height: 100px;
+    /* margin-top: 50px; */
+  }
+
+
+  #business .fatt {
+    padding-right: 15px;
+  }
+
+  
 
 
   /* Footer */
