@@ -379,7 +379,7 @@ img {
   }
 
   .img-box > img{
-    color: white;
+    filter: invert(1);
   }
 
   .box {
