@@ -152,6 +152,7 @@ img {
   #business {
     background-color: #fff;
     min-height: 700px;
+    margin-bottom: 40px;
   }
 
   #business .row {
@@ -251,5 +252,25 @@ img {
     left: 10%;
  }
 
+ /* Enterprise Special plan */
+
+ .ent-plan-team {
+    flex-basis: 100%;
+    border: 1px solid lightgrey;
+ }
+
+ .ent-plan .col-70 {
+    flex-basis: 70%;
+    border: 1px dashed red;
+    min-height: 200px;
+ }
+
+ .ent-plan .col-30 {
+    flex-basis: 30%;
+    border: 1px dashed red;
+    min-height: 200px;
+
+ }
+ 
 
   /* Footer */
