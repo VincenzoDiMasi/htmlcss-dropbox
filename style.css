@@ -73,7 +73,7 @@ h2 {
   }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 515;
     padding-bottom: 15px;
 
@@ -342,10 +342,17 @@ img {
 
  /* Sezione Business Operation */
 
+ #business-operation .row {
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+
  #business-operation .column {
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
     flex-basis: calc(100% / 3);
     min-height: 200px;
+    
  }
 
 
