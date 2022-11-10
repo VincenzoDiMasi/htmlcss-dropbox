@@ -381,7 +381,7 @@ img {
 
  .main-column {
     border: 1px dashed red;
-    flex-basis: calc(100% / 3);
+    flex-basis: 100%;
     min-height: calc(100% / 2);
  }
 
