@@ -142,11 +142,20 @@ img {
 
     
 
-    .bttn-navbar {
-    position: relative;
-    bottom: 8px;
+    
+
+    .navbar a {
+        text-decoration: none;
+        color: black;
     }
 
+    #bttn-navbar {
+        position: relative;
+        bottom: 8px;
+        color: white;
+        }
+
+   
 
 
 
