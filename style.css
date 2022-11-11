@@ -439,7 +439,8 @@ img {
 
 
   .img-box img {
-    width: 50%;
+    width: 60%;
+    
   }
 
   .center {
@@ -463,7 +464,7 @@ img {
     height: 50%;
     justify-content: center;
     align-items: center;
-    border: 10px transparent rgba(239, 239, 240, 0.5);
+    border: 10px solid transparent;
     cursor: pointer;
   }
 
