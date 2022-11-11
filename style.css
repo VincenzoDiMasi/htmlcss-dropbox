@@ -150,6 +150,15 @@ img {
         color: black;
     }
 
+    .hvr-brd {
+        /* border: 1px solid black; */
+        padding-bottom: 17px;
+    }
+
+    .hvr-brd:hover {
+        border-bottom: 3px solid black ;
+    }
+
     #bttn-navbar {
         position: relative;
         bottom: 8px;
