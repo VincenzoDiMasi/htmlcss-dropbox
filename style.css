@@ -503,3 +503,19 @@ img {
 }
 
   /* Footer */
+
+  .row-ftr {
+    border: 1px dashed yellow;
+    min-height: 300px;
+  }
+
+  .col-ftr {
+    flex-basis: 20%;
+    border: 1px dashed yellow;
+  }
+
+  #lng-ftr {
+    width: 20%;
+    min-height: 100px;
+    border: 1px dashed yellow;
+  }
